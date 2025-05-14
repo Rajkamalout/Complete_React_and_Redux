@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import FoodItems from "./assets/components/FoodItems";
+import ErrorMessage from "./assets/components/ErrorMessage";
 
 function App() {
   // let FoodItems = [];
@@ -13,6 +14,7 @@ function App() {
       <h1>Healthy Food</h1>
       {/* {FoodItems.length === 0 && <h3>i am still Hungry </h3>} */}
       <FoodItems></FoodItems>
+      <ErrorMessage></ErrorMessage>
      
     </>
   );
