@@ -3,7 +3,7 @@ function AddTodo() {
       <div className="container text-center">
         <div className="row space-body">
           <div className="col-4">
-            <input type="text" placeholder="Enter Todo Here" />
+            <input type="text" placeholder="Enter Todo app  Here" />
           </div>
           <div className="col-4">
             <input type="date" />
