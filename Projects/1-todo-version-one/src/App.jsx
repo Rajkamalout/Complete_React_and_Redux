@@ -8,10 +8,10 @@ function App() {
   return (
     <center className="todo-container">
       <AppName></AppName>
-      <AddTodo></AddTodo>
+      {/* <AddTodo></AddTodo> */}
       <div className="item-container">
         <TodoItem1></TodoItem1>
-        <TodoItem2></TodoItem2>
+        {/* <TodoItem2></TodoItem2> */}
       </div>
 
     </center>
