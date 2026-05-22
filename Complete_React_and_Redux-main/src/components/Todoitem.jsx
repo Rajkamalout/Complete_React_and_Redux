@@ -9,7 +9,7 @@ function Todoitem1({todoName,todate}) {
                 {todoName}
                 </div>
                 <div className="col-4">{todate} </div>
-                <div className="col-2"><button type="button" className="btn btn-danger kg-button">Delete</button>
+                {/* <div className="col-2"><button type="button" className="btn btn-danger kg-button">Delete</button> */}
                 </div>
             </div>
         </div>
